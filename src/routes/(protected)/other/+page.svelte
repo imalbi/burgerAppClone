@@ -1,6 +1,6 @@
 <script>
-  import OtherListItem from '../../components/otherListItem.svelte';
-  import { otherData } from '../../data/otherData';
+  import OtherListItem from '../../../components/otherListItem.svelte';
+  import { otherData } from '../../../data/otherData';
 
 
 </script>

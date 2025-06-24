@@ -6,7 +6,7 @@
 </script>
 
 <a  {href} class="flex flex-col items-center justify-center w-full">
-    <img src={src} class="relative size-6 mt-1" alt={`${label} Logo`}>
+    <img src={src}  class="relative size-6 mt-1" alt={`${label} Logo`}>
     <h1 class="w-full text-s text-center truncate">
         {#if isActive}
         <span class="font-extrabold">

@@ -15,7 +15,7 @@
                 <h1 class="font-extrabold text-2xl"> 6 Pepite di Pollo o un Gelato a 2€, che hit!</h1>
                 <div class=" flex justify-between">
                     <h3 class="mt-1"> Scopri le altre offerte! </h3>
-                    <button class=" bg-gray-300 rounded-full size-7 text-center"> <span class="relative bottom-0.5">→</span> </button>
+                    <button class=" bg-gray-300 rounded-full size-7 text-center cursor-pointer"> <span class="relative bottom-0.5">→</span> </button>
                 </div>
             </div>            
         </a>
