@@ -9,6 +9,7 @@
         {type:"combo", label:"Combo"},
         {type:"glutenfree", label:"Senza Glutine"}
     ]
+    import { offersData } from "../../../data/offersData";
     import HomeCard from "../../../components/homeCard.svelte";
     let activeFilter=$state('tutti');
     function handleClick(filterType){
@@ -32,8 +33,15 @@
         {/each}
 
     </div>
+    
+    <div class="w-11/12 m-auto flex flex-col gap-2">
 
-    <div>
+        {#each offersData as offer(offer.id) }
+                {#if offer.filters.includes(activeFilter)}
+                    
+                    <HomeCard descrizione={offer.descrizione} href={offer.href} src={offer.src}></HomeCard>    
+                {/if}
+            {/each}
 
     </div>
 

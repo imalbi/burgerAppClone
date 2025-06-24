@@ -10,7 +10,7 @@
 
     <article>
         <a href="/offers" aria-label="Scopri le altre offerte">
-            <img class="w-full object-cover h-45"src="/media/sampleHomeBanner.png" alt="Offerta">
+            <img class="w-full object-cover h-45"src="/media/sampleHomeBanner.webp" alt="Offerta">
             <div class="px-4 py-2">
                 <h1 class="font-extrabold text-2xl"> 6 Pepite di Pollo o un Gelato a 2€, che hit!</h1>
                 <div class=" flex justify-between">
