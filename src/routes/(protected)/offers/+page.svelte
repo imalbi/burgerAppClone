@@ -34,7 +34,7 @@
 
     </div>
     
-    <div class="w-11/12 m-auto flex flex-col gap-2">
+    
 
         {#each offersData as offer(offer.id) }
                 {#if offer.filters.includes(activeFilter)}
@@ -43,7 +43,6 @@
                 {/if}
             {/each}
 
-    </div>
 
 </main>
 
