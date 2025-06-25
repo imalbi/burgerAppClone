@@ -1,8 +1,12 @@
 <script>
     import { page } from "$app/state";
     let {label, href, srcs} = $props();
-    let isActive = $derived(page.url.pathname===href);
-    let src = $derived(isActive? srcs[1]:srcs[0]);
+    let isActive = $derived(
+        href === '/'
+            ? page.url.pathname === '/'
+            : page.url.pathname.startsWith(href) && href !== '/'
+    );
+    let src = $derived(isActive ? srcs[1] : srcs[0]);
 </script>
 
 <a  {href} class="flex flex-col items-center justify-center w-full">
